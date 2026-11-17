@@ -16,7 +16,6 @@ TypeScript checking, all 17 tests, and an intentional
 citation-validation regression that caused two tests
 to fail. After restoring the correct implementation,
 all 17 tests passed again.
-
 ## How I verified the output
 
 I integrated the suggested code locally and verified it by:
@@ -40,5 +39,4 @@ Citation membership does not establish factual grounding.
 The synthetic secret check detects exact markers only and
 is separate from dashboard approval eligibility.
 
-The GitHub Actions workflow must be verified separately
-after pushing the repository.
+The GitHub Actions release-gate workflow also passed successfully.
